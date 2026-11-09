@@ -318,8 +318,8 @@ sql_queries = [
        FROM daily_revenue ORDER BY order_date"""
 ]
 
-sql_text = "\\n\\n".join(
-    f"-- Q{i}\\n{query.strip()};" for i, query in enumerate(sql_queries, 1)
+sql_text = "\n\n".join(
+    f"-- Q{i}\n{query.strip()};" for i, query in enumerate(sql_queries, 1)
 )
 SQL_PATH.write_text(sql_text, encoding="utf-8")
 print("Saved seven queries to:", SQL_PATH)
