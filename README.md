@@ -57,7 +57,7 @@ Run the following commands from the repository root directory.
 7. Run Part C – Ticket Triage:
 
    ```bash
-   python data/Part_C.py
+   python Part_C.py
    ```
 
 8. Run Part D – Policy RAG & Refund Agent:
