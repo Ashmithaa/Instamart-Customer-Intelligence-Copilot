@@ -1,0 +1,6 @@
+{"run_id": "S1_test", "order_id": "ORD-100048", "refund_inr": 128.25, "status": "ISSUED", "payment_method": "original_payment_method"}
+{"run_id": "S1_test", "order_id": "ORD-100048", "refund_inr": 128.25, "status": "ISSUED", "payment_method": "original_payment_method"}
+{"run_id": "S1_test", "order_id": "ORD-100048", "refund_inr": 128.25, "status": "ISSUED", "payment_method": "original_payment_method"}
+{"run_id": "S2", "order_id": "ORD-100067", "refund_inr": 135.0, "status": "ISSUED", "payment_method": "original_payment_method"}
+{"timestamp": "2026-11-08T19:09:17.652323+00:00", "tool_name": "escalate_to_human", "run_id": "S3", "order_id": "ORD-100145", "refund_inr": 1999.0, "status": "ESCALATED"}
+{"timestamp": "2026-11-08T19:10:20.263516+00:00", "tool_name": "escalate_to_human", "run_id": "FINAL_S3", "order_id": "ORD-100145", "refund_inr": 1999.0, "status": "ESCALATED"}

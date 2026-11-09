@@ -1,0 +1,2 @@
+{"run_id": "LOG_TEST_S4", "status": "DENIED", "tokens_used": 1320, "tools_executed": ["get_order", "search_policy", "calculate_refund"], "human_handoff": false}
+{"run_id": "LOG_TEST_S4", "status": "DENIED", "tokens_used": 777, "tools_executed": ["get_order", "search_policy", "calculate_refund"], "human_handoff": false}
