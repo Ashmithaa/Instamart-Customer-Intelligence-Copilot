@@ -10,6 +10,7 @@
 
 
 from pathlib import Path
+from IPython.display import display
 import re
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -470,7 +471,7 @@ import mock_llm
 # Shared paths used by the remaining Part D cells.
 output_dir = OUTPUTS
 OUTPUT_DIR = OUTPUTS
-state_dir = PROJECT_ROOT / "state"
+state_dir = OUTPUTS / "state"
 STATE_DIR = state_dir
 STATE_DIR.mkdir(parents=True, exist_ok=True)
 
