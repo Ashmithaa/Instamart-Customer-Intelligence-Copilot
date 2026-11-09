@@ -7,7 +7,7 @@ This project builds a customer intelligence and support copilot for an Instamart
 The project is divided into four parts:
 
 - **Part A – Data Foundation:** Data cleaning, validation, SQLite database creation, and SQL analysis.
-- **Part B – Customer Segmentation & Lapse Prediction:** RFM analysis, K-Means clustering, and machine learning for customer lapse prediction.
+- **Part B – Customer Segmentation & Lapse Prediction:** RFM analysis, K-Means clustering, and machine learning for customer lapse prediction. 
 - **Part C – Ticket Triage:** Automated support ticket classification, PII redaction, retry handling, and token-budget management.
 - **Part D – Policy RAG & Refund Agent:** Policy document retrieval, refund decision-making, tool execution, checkpointing, and crash recovery.
 
