@@ -16,6 +16,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
+from IPython.display import display
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
@@ -39,8 +40,8 @@ OUTPUTS = ROOT / "outputs"
 OUTPUTS.mkdir(parents=True, exist_ok=True)
 
 required_files = [
-    CLEAN / "customers_clean.csv",
-    CLEAN / "orders_clean.csv"
+    CLEAN / "customers.csv",
+    CLEAN / "orders.csv"
 ]
 missing_files = [str(path) for path in required_files if not path.exists()]
 if missing_files:
@@ -58,8 +59,8 @@ print("Outputs folder:", OUTPUTS)
 
 # Load the cleaned Part A datasets
 
-customers = pd.read_csv(CLEAN / "customers_clean.csv")
-orders = pd.read_csv(CLEAN / "orders_clean.csv")
+customers = pd.read_csv(CLEAN / "customers.csv")
+orders = pd.read_csv(CLEAN / "orders.csv")
 
 orders["order_ts"] = pd.to_datetime(orders["order_ts"], errors="coerce")
 
