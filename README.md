@@ -191,7 +191,7 @@ The retention list contains up to 10 Premium customers from the test set, ranked
 
 The few-shot approach achieved 100% accuracy among valid classifications in the tested run.
 
-The budget demonstration stopped processing when the configured token budget was exhausted. Tickets that could not be classified within the available budget were not treated as successful model classifications.
+The budget demonstration used a configured token budget of 6,000 tokens and consumed 6,047 tokens. The implementation checks the budget before each model call, so the final call can exceed the remaining budget. Once the budget was reached or exceeded, subsequent calls were blocked. Tickets that could not be classified within the available budget were not treated as successful model classifications.
 
 ### Routing results
 
