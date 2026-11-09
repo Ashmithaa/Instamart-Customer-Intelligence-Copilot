@@ -16,6 +16,7 @@ import json
 import random
 import time
 import sys
+from IPython.display import display
 
 # Locate the project root
 ROOT = Path.cwd().parent if Path.cwd().name == "notebooks" else Path.cwd()
